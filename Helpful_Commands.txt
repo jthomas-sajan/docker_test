@@ -5,5 +5,18 @@ Git Init
 #Docker pul down the latest aspnet image
 docker pull microsoft/aspnet
 
+#Set global username and email
+git config --global user.name "jthomas_sajan"
+git config --global user.email "jthomas@sajan.com"
 
+#Adds file to Git repository staging area and begins to track the file
+git add Helpful_Commands.txt
 
+#Commit changes
+git Commit -m "Added Helpful_Commands.txt t the repo"
+
+Add remote repo from bare Init
+git remote add docker_test https://github.com/jthomas-sajan/docker_test.git
+
+Push repo commit to remote repo
+git push -u docker_test master
