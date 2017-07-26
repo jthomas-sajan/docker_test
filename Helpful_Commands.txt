@@ -1,0 +1,9 @@
+#Git command to Init the database
+Git Init
+
+
+#Docker pul down the latest aspnet image
+docker pull microsoft/aspnet
+
+
+
